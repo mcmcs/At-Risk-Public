@@ -106,7 +106,7 @@ A changed checksum is a data-version difference. Keep the failed file and
 error report separate from the frozen package. Do not substitute `current.csv`,
 expand the sample, or change the manifest to make replication pass.
 
-Contact [Minchul Shin](mailto:minchul.shin@phil.frb.org) with the input ID and
+Contact [Minchul Shin](mailto:visiblehand@gmail.com) with the input ID and
 observed checksum. The authors retain archived inputs for research records;
 any access arrangement remains subject to provider permissions. No private
 data bundle is included with the data-free final submission packet.

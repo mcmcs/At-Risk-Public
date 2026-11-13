@@ -5,7 +5,7 @@ for U.S. Recession Prediction," conditionally accepted by the *International
 Journal of Forecasting*.
 
 Prepared 2026-11-13. Package version: 0.4.0.dev0.
-Contact: Minchul Shin, [minchul.shin@phil.frb.org](mailto:minchul.shin@phil.frb.org).
+Contact: Minchul Shin, [visiblehand@gmail.com](mailto:visiblehand@gmail.com).
 
 This public edition contains the main-paper and appendix code, locked Python
 dependencies, input checksums, and reference tables and figures. It produces

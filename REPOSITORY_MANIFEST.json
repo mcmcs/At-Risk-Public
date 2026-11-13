@@ -24,8 +24,8 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "e73edb914b12a9c5e481eef27ce456bbd489e163c435b974a8fd1bf7dd0b88fd",
-      "size_bytes": 594
+      "sha256": "ed9be742aedde82c6df47de43ca7ce6fb59265d0439144f402537b699a9b20f9",
+      "size_bytes": 590
     },
     {
       "path": "LICENSE",
@@ -34,18 +34,18 @@
     },
     {
       "path": "README.md",
-      "sha256": "60eba0db0be10dcf11d9fe5dbc87960875a9aef7c83ebbbbd840a5e70d9e94e8",
-      "size_bytes": 5125
+      "sha256": "160aebc34e4dfdaa07b2e2c4a72ad4f2ed9f1770d7971002e8273b29020bd03b",
+      "size_bytes": 5117
     },
     {
       "path": "docs/data_downloads.md",
-      "sha256": "b2a8c7f45cde74b8852ae63e3242cd2e4b3ccfcac5fcf10af47378a42f4750b2",
-      "size_bytes": 5966
+      "sha256": "dec8355675c0f3c92e9c293b8c0452c0055adc2a81043a6a971634d3a4332976",
+      "size_bytes": 5962
     },
     {
       "path": "docs/data_rights.md",
-      "sha256": "224f1b94217193be657719f29864a5b36538fb298bd4322946776c628cb73e34",
-      "size_bytes": 2948
+      "sha256": "d08ea3fd2fe47f992ae5b1352d9c2d97a365365bb77f334d8fdd0251ecf9ca6c",
+      "size_bytes": 2944
     },
     {
       "path": "docs/input_locations.csv",

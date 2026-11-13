@@ -36,7 +36,7 @@ must be obtained separately from the relevant rights holder.
 Use [data_downloads.md](data_downloads.md) for exact vintages, sample bounds,
 installation commands, manual placement, and checks. Public availability can
 change. If a provider removes or alters a required file, stop and contact
-Minchul Shin at minchul.shin@phil.frb.org. Do not replace historical vintages
+Minchul Shin at visiblehand@gmail.com. Do not replace historical vintages
 with current data or alter a checksum. The authors cannot promise temporary
 redistribution of provider data without the necessary permission.
 
