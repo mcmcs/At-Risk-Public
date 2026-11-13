@@ -1,0 +1,13 @@
+% dependency run fingerprints: 2a8da4d23e091800ebcbc9537d6d7d9dca166ae855ef68a04db7508283440d91, d79a3ef250d755b298c500c1b5f981882451ec91eaf5f7a0dbc488da14715920
+\begin{tabular}{llllllll}
+\toprule
+section & label & pr_auc_h3 & brier_h3 & pr_auc_h6 & brier_h6 & pr_auc_h12 & brier_h12 \\
+\midrule
+Full Feature Space & Continuous ($X_t$) + XGBoost & 0.543 & 0.063 & 0.325 & 0.086 & 0.301 & 0.105 \\
+Full Feature Space & "At-Risk" ($Z_t$) + Logit-L2 & 0.726 & 0.050 & 0.453 & 0.075 & 0.429 & 0.094 \\
+$S_t$ (8 Spreads) & Continuous ($X_t$) + XGBoost & 0.492 & 0.078 & 0.355 & 0.085 & 0.407 & 0.086 \\
+$S_t$ (8 Spreads) & "At-Risk" ($Z_t$) + Logit-L2 & 0.513 & 0.072 & 0.385 & 0.091 & 0.587 & 0.096 \\
+$R_t$ (8 Real Economy Indicators) & Continuous ($X_t$) + XGBoost & 0.437 & 0.076 & 0.208 & 0.122 & 0.150 & 0.103 \\
+$R_t$ (8 Real Economy Indicators) & "At-Risk" ($Z_t$) + Logit-L2 & 0.526 & 0.127 & 0.241 & 0.188 & 0.111 & 0.227 \\
+\bottomrule
+\end{tabular}

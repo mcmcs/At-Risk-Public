@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "at-risk-replication"
+version = "0.4.0.dev0"
+description = "Audited replication package for At-Risk Transformation for U.S. Recession Prediction"
+readme = "README.md"
+requires-python = "==3.13.*"
+authors = [{name = "Paper authors"}]
+dependencies = [
+  "joblib==1.5.3",
+  "matplotlib==3.10.8",
+  "numpy==2.4.3",
+  "pandas==3.0.1",
+  "pyarrow==23.0.1",
+  "scikit-learn==1.8.0",
+  "scipy==1.17.1",
+  "seaborn==0.13.2",
+  "statsmodels==0.14.6",
+  "tqdm==4.67.3",
+  "xgboost==3.2.0",
+]
+
+[project.scripts]
+at-risk-run-all = "program_v04.run_all:main"
+at-risk-validate-all = "program_v04.validate_all:main"
+
+[tool.setuptools]
+package-dir = {program_v04 = "."}
+packages = [
+  "program_v04",
+  "program_v04.replication",
+  "program_v04.main",
+  "program_v04.main.artifacts",
+  "program_v04.appendix",
+  "program_v04.appendix.artifacts",
+]
+include-package-data = false
+
+[tool.setuptools.package-data]
+program_v04 = [
+  "requirements.lock",
+  "data/*.csv",
+  "data/*.md",
+  "data/documentary/*.csv",
+  "data/documentary/*.md",
+  "docs/*.csv",
+  "docs/*.md",
+  "docs/*.tex",
+  "docs/*.pdf",
+]

@@ -1,0 +1,13 @@
+% dependency run fingerprints: 6af6cb3dc2bc20f2ebe8807f2f77a9e22d88b4a5ccac4aa175db2e86631f5dbb, b58f4cc982cbc071069c6df8e99d5c308f2f1366c5589dc6e1acef88f985cb59, d79a3ef250d755b298c500c1b5f981882451ec91eaf5f7a0dbc488da14715920
+\begin{tabular}{lllllll}
+\toprule
+label & pr_auc_h3 & brier_h3 & pr_auc_h6 & brier_h6 & pr_auc_h12 & brier_h12 \\
+\midrule
+Proposed ($Z_t$, Logit-L2) & 0.726 & 0.050 & 0.453 & 0.075 & 0.429 & 0.094 \\
+Benchmark ($X_t$, Logit-L2) & 0.492 & 0.070 & 0.313 & 0.092 & 0.224 & 0.118 \\
+Benchmark (PCA of $X_t$, Logit-L2) & 0.529 & 0.067 & 0.372 & 0.082 & 0.358 & 0.099 \\
+Benchmark ($X_t$, XGBoost) & 0.543 & 0.063 & 0.325 & 0.086 & 0.301 & 0.105 \\
+Benchmark ($X_t$, Random Forest) & 0.587 & 0.059 & 0.384 & 0.072 & 0.413 & 0.071 \\
+Benchmark (Term Spread Probit) & 0.202 & 0.093 & 0.214 & 0.093 & 0.258 & 0.084 \\
+\bottomrule
+\end{tabular}

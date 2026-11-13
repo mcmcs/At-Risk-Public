@@ -1,0 +1,13 @@
+% dependency run fingerprints: 76642f519fd23994c61cc065709a9794e0cf4c4fa5936c40d8728f423ae56cf9, d79a3ef250d755b298c500c1b5f981882451ec91eaf5f7a0dbc488da14715920
+\begin{tabular}{llllllllllllllll}
+\toprule
+horizon & threshold_scheme & threshold_label & source_family & predictor_key & model_name & num_forecasts & num_positive_actuals & pr_auc & brier & initial_global_quantile & final_global_quantile & minimum_global_quantile & maximum_global_quantile & quantile_update_count & recalibration_rule \\
+\midrule
+3 & frozen_initial & Initial quantile frozen & main & Zt_Disagg & Logit_L2 & 420 & 40 & 0.726 & 0.050 & 0.309 & 0.309 & 0.309 & 0.309 & 1 & initial_pre_oos_global_quantile_frozen \\
+3 & expanding & Expanding quantile & expanding_threshold & Zt_Disagg_ExpandingQ & Logit_L2 & 420 & 40 & 0.706 & 0.049 & 0.309 & 0.344 & 0.289 & 0.347 & 420 & recompute_global_quantile_at_each_forecast_origin \\
+6 & frozen_initial & Initial quantile frozen & main & Zt_Disagg & Logit_L2 & 420 & 40 & 0.453 & 0.075 & 0.304 & 0.304 & 0.304 & 0.304 & 1 & initial_pre_oos_global_quantile_frozen \\
+6 & expanding & Expanding quantile & expanding_threshold & Zt_Disagg_ExpandingQ & Logit_L2 & 420 & 40 & 0.464 & 0.073 & 0.304 & 0.342 & 0.289 & 0.347 & 420 & recompute_global_quantile_at_each_forecast_origin \\
+12 & frozen_initial & Initial quantile frozen & main & Zt_Disagg & Logit_L2 & 420 & 40 & 0.429 & 0.094 & 0.295 & 0.295 & 0.295 & 0.295 & 1 & initial_pre_oos_global_quantile_frozen \\
+12 & expanding & Expanding quantile & expanding_threshold & Zt_Disagg_ExpandingQ & Logit_L2 & 420 & 40 & 0.401 & 0.097 & 0.295 & 0.338 & 0.289 & 0.347 & 420 & recompute_global_quantile_at_each_forecast_origin \\
+\bottomrule
+\end{tabular}

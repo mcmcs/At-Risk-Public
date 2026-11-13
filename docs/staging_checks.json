@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "source_sha256": "c6121f3ecfe5d2b3784144a811dede0393dc97d0eb4dd0e31a66dd6ee3432007",
+  "license": "MIT",
+  "edition": "public",
+  "full_run_stages": [
+    {
+      "name": "input_verification",
+      "started_utc": "2026-10-18T13:39:58.589764+00:00",
+      "ended_utc": "2026-10-18T13:40:09.504882+00:00",
+      "elapsed_seconds": 10.914650540798903,
+      "exit_code": 0
+    },
+    {
+      "name": "full_replication",
+      "started_utc": "2026-10-18T13:40:09.505369+00:00",
+      "ended_utc": "2026-10-18T16:09:28.317860+00:00",
+      "elapsed_seconds": 8958.810801958898,
+      "exit_code": 0
+    },
+    {
+      "name": "validate_all",
+      "started_utc": "2026-10-18T16:09:28.319041+00:00",
+      "ended_utc": "2026-10-18T16:09:34.379315+00:00",
+      "elapsed_seconds": 6.05996908294037,
+      "exit_code": 0
+    },
+    {
+      "name": "compare_reference",
+      "started_utc": "2026-10-18T16:09:34.379742+00:00",
+      "ended_utc": "2026-10-18T16:09:41.647454+00:00",
+      "elapsed_seconds": 7.2674879161641,
+      "exit_code": 0
+    },
+    {
+      "name": "artifacts_only",
+      "started_utc": "2026-10-18T16:09:41.659420+00:00",
+      "ended_utc": "2026-10-18T16:09:55.443702+00:00",
+      "elapsed_seconds": 13.783954750047997,
+      "exit_code": 0
+    },
+    {
+      "name": "compare_reference_after_rendering",
+      "started_utc": "2026-10-18T16:09:55.455220+00:00",
+      "ended_utc": "2026-10-18T16:10:02.259984+00:00",
+      "elapsed_seconds": 6.804311415879056,
+      "exit_code": 0
+    }
+  ],
+  "artifacts_only_preserved_results": true,
+  "saved_result_files": 51
+}

@@ -1,0 +1,14 @@
+% dependency run fingerprints: d79a3ef250d755b298c500c1b5f981882451ec91eaf5f7a0dbc488da14715920, fdc54b058b06f7eb32c2660398af9a1ceb19055de466279245c82f5f999ef909
+\begin{tabular}{lllllll}
+\toprule
+label & pr_auc_h3 & brier_h3 & pr_auc_h6 & brier_h6 & pr_auc_h12 & brier_h12 \\
+\midrule
+Disaggregated ($Z_t$), Logit-L2 & 0.726 & 0.050 & 0.453 & 0.075 & 0.429 & 0.094 \\
+Disaggregated ($Z_t$), XGBoost & 0.611 & 0.059 & 0.324 & 0.090 & 0.265 & 0.092 \\
+Simple Average, Logit-L2 & 0.545 & 0.148 & 0.370 & 0.187 & 0.195 & 0.230 \\
+Simple Average, XGBoost & 0.487 & 0.103 & 0.216 & 0.142 & 0.116 & 0.131 \\
+PCA($Z_t$), Logit-L2 & 0.703 & 0.061 & 0.537 & 0.076 & 0.488 & 0.100 \\
+PCA($Z_t$), XGBoost & 0.663 & 0.052 & 0.517 & 0.067 & 0.330 & 0.087 \\
+Parameter-Free (share of $Z=1$) & 0.556 & 0.116 & 0.350 & 0.123 & 0.164 & 0.136 \\
+\bottomrule
+\end{tabular}

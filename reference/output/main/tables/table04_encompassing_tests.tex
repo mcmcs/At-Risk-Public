@@ -1,0 +1,19 @@
+% dependency run fingerprints: 31565a8bc434d89ff40c5f9931cf460a07f7bb96d43ce87c9e630e5689c2aa87, e37a3330230040267a5b81d53585726e359646c87004cf3e82ab61e48d767ade
+\begin{tabular}{lllllll}
+\toprule
+horizon & model_a & model_b & coeff_a & pval_a & coeff_b & pval_b \\
+\midrule
+3 & $Z_t$ (Logit-L2) & $X_t$ (Logit-L2) & 0.700 & 0.000 & -0.015 & 0.790 \\
+3 & $Z_t$ (Logit-L2) & $X_t$ (XGBoost) & 0.727 & 0.000 & -0.024 & 0.727 \\
+3 & $Z_t$ (Logit-L2) & $X_t$ (Random Forest) & 0.420 & 0.001 & 0.395 & 0.028 \\
+3 & PCA($Z_t$) (Logit-L2) & PCA($X_t$) (Logit-L2) & 0.561 & 0.000 & 0.043 & 0.415 \\
+6 & $Z_t$ (Logit-L2) & $X_t$ (Logit-L2) & 0.644 & 0.000 & -0.032 & 0.663 \\
+6 & $Z_t$ (Logit-L2) & $X_t$ (XGBoost) & 0.695 & 0.000 & -0.045 & 0.384 \\
+6 & $Z_t$ (Logit-L2) & $X_t$ (Random Forest) & 0.407 & 0.001 & 0.259 & 0.074 \\
+6 & PCA($Z_t$) (Logit-L2) & PCA($X_t$) (Logit-L2) & 0.670 & 0.000 & 0.012 & 0.848 \\
+12 & $Z_t$ (Logit-L2) & $X_t$ (Logit-L2) & 0.869 & 0.000 & -0.044 & 0.708 \\
+12 & $Z_t$ (Logit-L2) & $X_t$ (XGBoost) & 0.879 & 0.000 & -0.012 & 0.785 \\
+12 & $Z_t$ (Logit-L2) & $X_t$ (Random Forest) & 0.483 & 0.009 & 0.313 & 0.030 \\
+12 & PCA($Z_t$) (Logit-L2) & PCA($X_t$) (Logit-L2) & 0.994 & 0.000 & -0.011 & 0.942 \\
+\bottomrule
+\end{tabular}

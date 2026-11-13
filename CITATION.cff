@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated paper when using the replication code."
+type: software
+title: "Replication code for At-Risk Transformation for U.S. Recession Prediction"
+version: 0.4.0.dev0
+authors:
+  - family-names: Billakanti
+    given-names: Rahul
+  - family-names: Shin
+    given-names: Minchul
+    email: minchul.shin@phil.frb.org
+abstract: "Code to reproduce the main-paper and appendix results for At-Risk Transformation for U.S. Recession Prediction."
+keywords:
+  - recession forecasting
+  - at-risk transformation
+  - replication
+license: MIT

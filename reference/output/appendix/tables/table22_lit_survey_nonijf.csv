@@ -1,0 +1,11 @@
+row_order,citation_key,outlet_method,data_sample,predictor_treatment,url
+1,EstrellaHardouvelis1991,\textit{Journal of Finance}; term-spread regressions,"US, quarterly, 1955--1988",Spread in levels; macro controls in standard continuous form,https://doi.org/10.1111/j.1540-6261.1991.tb02674.x
+2,EstrellaMishkin1998,\textit{Review of Economics and Statistics}; probit,"US, quarterly, 1959--1995","Financial and macro predictors in levels, spreads, or growth rates",https://doi.org/10.1162/003465398557320
+3,KauppiSaikkonen2008,\textit{Review of Economics and Statistics}; dynamic probit,"US, quarterly, 1955--2005",Term spread in levels; lagged recession state and probability dynamics,https://doi.org/10.1162/rest.90.4.777
+4,ChauvetPotter2005,\textit{Journal of Forecasting}; probit with breaks,"US, quarterly/monthly",Yield spread in levels; nonlinearities enter through model dynamics and breaks,https://doi.org/10.1002/for.932
+5,Nyberg2010,\textit{Journal of Forecasting}; dynamic probit,"US/Germany, monthly","Term spreads, stock returns, and financial variables in continuous form",https://doi.org/10.1002/for.1161
+6,rudebusch2009,\textit{Journal of Business \& Economic Statistics}; real-time probit,"US, quarterly, 1968--2007",Yield spread in levels; SPF forecasts used as comparator,https://doi.org/10.1198/jbes.2009.07213
+7,Chen2011,\textit{Canadian Journal of Economics}; probit + dynamic factors,"US, monthly/quarterly",Common factors extracted from large continuous predictor panel,https://doi.org/10.1111/j.1540-5982.2011.01648.x
+8,ng2014boosting,\textit{Canadian Journal of Economics}; boosting,"US, monthly, 1961--2011",Large panel of real/financial predictors and lags after standard transformations,https://doi.org/10.1111/caje.12070
+9,KeilisBorok2000,\textit{Journal of Forecasting}; pattern recognition,"US, monthly, 1962--1996",Six indicators converted to rule-based binary warning signals,https://doi.org/10.1002/\%28SICI\%291099-131X\%28200001\%2919\%3A1\%3C65\%3A\%3AAID-FOR730\%3E3.0.CO\%3B2-U
+10,gouletcoulombe2021,\textit{National Institute Economic Review}; machine learning,"UK, monthly, COVID period",Large monthly panel; nonlinearities captured by ML rather than pre-binarized predictors,https://doi.org/10.1017/nie.2021.10

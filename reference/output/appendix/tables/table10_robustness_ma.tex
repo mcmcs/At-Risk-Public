@@ -1,0 +1,15 @@
+% dependency run fingerprints: d79a3ef250d755b298c500c1b5f981882451ec91eaf5f7a0dbc488da14715920, ea45a232c480641f5ac03f28a8966c609cba3ef1bc71ebe94ea46c377b42b03f
+\begin{tabular}{llllllll}
+\toprule
+section & label & pr_auc_h3 & brier_h3 & pr_auc_h6 & brier_h6 & pr_auc_h12 & brier_h12 \\
+\midrule
+Disaggregated $Z_t$ + Logit-L2 & $h_g=1$ (main spec.) & 0.726 & 0.050 & 0.453 & 0.075 & 0.429 & 0.094 \\
+Disaggregated $Z_t$ + Logit-L2 & $h_g=3$ & 0.617 & 0.057 & 0.462 & 0.074 & 0.569 & 0.083 \\
+Disaggregated $Z_t$ + Logit-L2 & $h_g=6$ & 0.593 & 0.062 & 0.428 & 0.075 & 0.651 & 0.071 \\
+Disaggregated $Z_t$ + Logit-L2 & $h_g=12$ & 0.652 & 0.068 & 0.416 & 0.076 & 0.344 & 0.076 \\
+PCA($Z_t$) + Logit-L2 & $h_g=1$ (main spec.) & 0.703 & 0.061 & 0.537 & 0.076 & 0.488 & 0.100 \\
+PCA($Z_t$) + Logit-L2 & $h_g=3$ & 0.568 & 0.069 & 0.418 & 0.089 & 0.332 & 0.116 \\
+PCA($Z_t$) + Logit-L2 & $h_g=6$ & 0.540 & 0.076 & 0.367 & 0.093 & 0.248 & 0.121 \\
+PCA($Z_t$) + Logit-L2 & $h_g=12$ & 0.479 & 0.089 & 0.239 & 0.139 & 0.148 & 0.136 \\
+\bottomrule
+\end{tabular}

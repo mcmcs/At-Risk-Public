@@ -1,0 +1,35 @@
+\begin{tabular}{c l l r r}
+\toprule
+$h$ & Window & Model & PR AUC & Brier \\
+\midrule
+3 & Full evaluation & $Z_t$ + Logit-$\ell_2$ & 0.726 & 0.050 \\
+3 & Full evaluation & $X_t$ + Logit-$\ell_2$ & 0.492 & 0.070 \\
+3 & Full evaluation & $X_t$ + XGBoost & 0.543 & 0.063 \\
+3 & Full evaluation & $X_t$ + Random Forest & 0.587 & 0.059 \\
+\midrule
+3 & Pre-2020 evaluation & $Z_t$ + Logit-$\ell_2$ & 0.801 & 0.041 \\
+3 & Pre-2020 evaluation & $X_t$ + Logit-$\ell_2$ & 0.744 & 0.050 \\
+3 & Pre-2020 evaluation & $X_t$ + XGBoost & 0.628 & 0.063 \\
+3 & Pre-2020 evaluation & $X_t$ + Random Forest & 0.639 & 0.061 \\
+\midrule
+6 & Full evaluation & $Z_t$ + Logit-$\ell_2$ & 0.453 & 0.075 \\
+6 & Full evaluation & $X_t$ + Logit-$\ell_2$ & 0.313 & 0.092 \\
+6 & Full evaluation & $X_t$ + XGBoost & 0.325 & 0.086 \\
+6 & Full evaluation & $X_t$ + Random Forest & 0.384 & 0.072 \\
+\midrule
+6 & Pre-2020 evaluation & $Z_t$ + Logit-$\ell_2$ & 0.548 & 0.068 \\
+6 & Pre-2020 evaluation & $X_t$ + Logit-$\ell_2$ & 0.545 & 0.072 \\
+6 & Pre-2020 evaluation & $X_t$ + XGBoost & 0.377 & 0.091 \\
+6 & Pre-2020 evaluation & $X_t$ + Random Forest & 0.445 & 0.075 \\
+\midrule
+12 & Full evaluation & $Z_t$ + Logit-$\ell_2$ & 0.429 & 0.094 \\
+12 & Full evaluation & $X_t$ + Logit-$\ell_2$ & 0.224 & 0.118 \\
+12 & Full evaluation & $X_t$ + XGBoost & 0.301 & 0.105 \\
+12 & Full evaluation & $X_t$ + Random Forest & 0.413 & 0.071 \\
+\midrule
+12 & Pre-2020 evaluation & $Z_t$ + Logit-$\ell_2$ & 0.551 & 0.084 \\
+12 & Pre-2020 evaluation & $X_t$ + Logit-$\ell_2$ & 0.343 & 0.098 \\
+12 & Pre-2020 evaluation & $X_t$ + XGBoost & 0.422 & 0.086 \\
+12 & Pre-2020 evaluation & $X_t$ + Random Forest & 0.508 & 0.071 \\
+\bottomrule
+\end{tabular}

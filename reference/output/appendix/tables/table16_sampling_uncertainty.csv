@@ -1,0 +1,55 @@
+horizon,benchmark_id,benchmark_label,metric,difference_orientation,bootstrap_type,interval_method,confidence_level,point_estimate,ci_lower,ci_upper,expected_block_length,is_primary,seed,target_month_count,recession_month_count,attempted_replications,valid_replications,degenerate_replications
+3,xt_logit_l2,$X_t$ + Logit-L2,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.23439450479938023,0.03880651006436635,0.34481030674644425,12,True,20260727,420,40,10003,10000,3
+3,xt_logit_l2,$X_t$ + Logit-L2,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.019966238757821823,0.00730361865765047,0.035058693929607254,12,True,20260727,420,40,10003,10000,3
+3,xt_xgboost,$X_t$ + XGBoost,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.18332472022714497,0.04976453558702759,0.24461620068685042,12,True,20260727,420,40,10003,10000,3
+3,xt_xgboost,$X_t$ + XGBoost,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.013430508501495596,-0.005533563935982636,0.03642041661109565,12,True,20260727,420,40,10003,10000,3
+3,xt_random_forest,$X_t$ + Random Forest,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.13904548016314655,0.004480682575165822,0.2132348274457126,12,True,20260727,420,40,10003,10000,3
+3,xt_random_forest,$X_t$ + Random Forest,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.00971448706644805,-0.011341350398520515,0.034539952058833576,12,True,20260727,420,40,10003,10000,3
+3,xt_logit_l2,$X_t$ + Logit-L2,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.23439450479938023,0.04999471354622205,0.3506255114951219,6,False,20260727,420,40,10000,10000,0
+3,xt_logit_l2,$X_t$ + Logit-L2,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.019966238757821823,0.00792631001213601,0.03367330007492122,6,False,20260727,420,40,10000,10000,0
+3,xt_xgboost,$X_t$ + XGBoost,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.18332472022714497,0.06274753560829056,0.26432534692360626,6,False,20260727,420,40,10000,10000,0
+3,xt_xgboost,$X_t$ + XGBoost,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.013430508501495596,-0.004797920484719826,0.03471128603791729,6,False,20260727,420,40,10000,10000,0
+3,xt_random_forest,$X_t$ + Random Forest,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.13904548016314655,0.012557617224130404,0.232022782796865,6,False,20260727,420,40,10000,10000,0
+3,xt_random_forest,$X_t$ + Random Forest,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.00971448706644805,-0.009805966544564039,0.031965076804649335,6,False,20260727,420,40,10000,10000,0
+3,xt_logit_l2,$X_t$ + Logit-L2,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.23439450479938023,0.0298164490703599,0.3352198369893662,24,False,20260727,420,40,10005,10000,5
+3,xt_logit_l2,$X_t$ + Logit-L2,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.019966238757821823,0.006856023487222334,0.03502035234449146,24,False,20260727,420,40,10005,10000,5
+3,xt_xgboost,$X_t$ + XGBoost,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.18332472022714497,0.031221965003540398,0.2275271424726252,24,False,20260727,420,40,10005,10000,5
+3,xt_xgboost,$X_t$ + XGBoost,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.013430508501495596,-0.00633245018917479,0.036331837949919975,24,False,20260727,420,40,10005,10000,5
+3,xt_random_forest,$X_t$ + Random Forest,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.13904548016314655,-0.0047473334591860905,0.20012176258872733,24,False,20260727,420,40,10005,10000,5
+3,xt_random_forest,$X_t$ + Random Forest,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.00971448706644805,-0.012515382547887276,0.03541444188512498,24,False,20260727,420,40,10005,10000,5
+6,xt_logit_l2,$X_t$ + Logit-L2,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.14023725595901343,-0.0013792855898856838,0.28223815888469,12,True,20260727,420,40,10001,10000,1
+6,xt_logit_l2,$X_t$ + Logit-L2,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.01699548994320557,0.00260513656891908,0.03346029975737136,12,True,20260727,420,40,10001,10000,1
+6,xt_xgboost,$X_t$ + XGBoost,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.12832890470062885,-0.05993053771014222,0.2245060011579199,12,True,20260727,420,40,10001,10000,1
+6,xt_xgboost,$X_t$ + XGBoost,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.011469907624641673,-0.01469906386570235,0.04035002334739763,12,True,20260727,420,40,10001,10000,1
+6,xt_random_forest,$X_t$ + Random Forest,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.06886663726182096,-0.04959307412616604,0.1502496981378847,12,True,20260727,420,40,10001,10000,1
+6,xt_random_forest,$X_t$ + Random Forest,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,-0.002793314532132593,-0.027481095120816753,0.024281449293517134,12,True,20260727,420,40,10001,10000,1
+6,xt_logit_l2,$X_t$ + Logit-L2,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.14023725595901343,0.0019234825073328357,0.2774235019283044,6,False,20260727,420,40,10000,10000,0
+6,xt_logit_l2,$X_t$ + Logit-L2,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.01699548994320557,0.003191057431906531,0.03226248569162857,6,False,20260727,420,40,10000,10000,0
+6,xt_xgboost,$X_t$ + XGBoost,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.12832890470062885,-0.02712087561148992,0.21920487398405755,6,False,20260727,420,40,10000,10000,0
+6,xt_xgboost,$X_t$ + XGBoost,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.011469907624641673,-0.014126708708551355,0.040736024741881136,6,False,20260727,420,40,10000,10000,0
+6,xt_random_forest,$X_t$ + Random Forest,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.06886663726182096,-0.04017289125274968,0.1438246531274034,6,False,20260727,420,40,10000,10000,0
+6,xt_random_forest,$X_t$ + Random Forest,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,-0.002793314532132593,-0.02658437355123919,0.022599638100199305,6,False,20260727,420,40,10000,10000,0
+6,xt_logit_l2,$X_t$ + Logit-L2,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.14023725595901343,0.005724107370392584,0.2768955779797871,24,False,20260727,420,40,10002,10000,2
+6,xt_logit_l2,$X_t$ + Logit-L2,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.01699548994320557,0.002294996794974669,0.034403250845610245,24,False,20260727,420,40,10002,10000,2
+6,xt_xgboost,$X_t$ + XGBoost,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.12832890470062885,-0.07762670462926757,0.22013740773728585,24,False,20260727,420,40,10002,10000,2
+6,xt_xgboost,$X_t$ + XGBoost,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.011469907624641673,-0.011791581535211294,0.03779083893055664,24,False,20260727,420,40,10002,10000,2
+6,xt_random_forest,$X_t$ + Random Forest,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.06886663726182096,-0.04669268489632186,0.14845611407674622,24,False,20260727,420,40,10002,10000,2
+6,xt_random_forest,$X_t$ + Random Forest,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,-0.002793314532132593,-0.028080541472264926,0.025071513417586486,24,False,20260727,420,40,10002,10000,2
+12,xt_logit_l2,$X_t$ + Logit-L2,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.20550938567988253,0.010105514703901601,0.35340155165795195,12,True,20260727,420,40,10006,10000,6
+12,xt_logit_l2,$X_t$ + Logit-L2,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.023642165333600154,0.008150570059775673,0.0404702673461519,12,True,20260727,420,40,10006,10000,6
+12,xt_xgboost,$X_t$ + XGBoost,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.12827735252848527,-0.025392141406433092,0.2340810125069468,12,True,20260727,420,40,10006,10000,6
+12,xt_xgboost,$X_t$ + XGBoost,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.010666889648208888,-0.022609930946047196,0.046457244272273365,12,True,20260727,420,40,10006,10000,6
+12,xt_random_forest,$X_t$ + Random Forest,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.016514754580371105,-0.09402994849235462,0.09279595863297758,12,True,20260727,420,40,10006,10000,6
+12,xt_random_forest,$X_t$ + Random Forest,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,-0.02360821107457578,-0.047471725419601235,0.002540431703877116,12,True,20260727,420,40,10006,10000,6
+12,xt_logit_l2,$X_t$ + Logit-L2,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.20550938567988253,0.027078120213589598,0.3623636322367248,6,False,20260727,420,40,10000,10000,0
+12,xt_logit_l2,$X_t$ + Logit-L2,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.023642165333600154,0.010117549699050142,0.038299151981855434,6,False,20260727,420,40,10000,10000,0
+12,xt_xgboost,$X_t$ + XGBoost,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.12827735252848527,-0.0074500719471064175,0.23862382722227488,6,False,20260727,420,40,10000,10000,0
+12,xt_xgboost,$X_t$ + XGBoost,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.010666889648208888,-0.01815784484804396,0.043303814076771446,6,False,20260727,420,40,10000,10000,0
+12,xt_random_forest,$X_t$ + Random Forest,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.016514754580371105,-0.09013452367168968,0.10246551227217172,6,False,20260727,420,40,10000,10000,0
+12,xt_random_forest,$X_t$ + Random Forest,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,-0.02360821107457578,-0.045958771711394154,2.3309898540236204e-05,6,False,20260727,420,40,10000,10000,0
+12,xt_logit_l2,$X_t$ + Logit-L2,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.20550938567988253,-0.0012211284657447407,0.33543923992225133,24,False,20260727,420,40,10002,10000,2
+12,xt_logit_l2,$X_t$ + Logit-L2,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.023642165333600154,0.007040506545017478,0.04184865543779511,24,False,20260727,420,40,10002,10000,2
+12,xt_xgboost,$X_t$ + XGBoost,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.12827735252848527,-0.037060954539482244,0.2239247857538858,24,False,20260727,420,40,10002,10000,2
+12,xt_xgboost,$X_t$ + XGBoost,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,0.010666889648208888,-0.023677133349835566,0.04787815831135273,24,False,20260727,420,40,10002,10000,2
+12,xt_random_forest,$X_t$ + Random Forest,pr_auc,proposed_minus_benchmark,stationary_circular,percentile,0.9,0.016514754580371105,-0.10347493526514806,0.08158060155510138,24,False,20260727,420,40,10002,10000,2
+12,xt_random_forest,$X_t$ + Random Forest,brier,benchmark_minus_proposed,stationary_circular,percentile,0.9,-0.02360821107457578,-0.04844673163620674,0.0035187585039245057,24,False,20260727,420,40,10002,10000,2

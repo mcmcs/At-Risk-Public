@@ -1,0 +1,11 @@
+% dependency run fingerprints: 565ba435e8598c3d6f8e3161db3f877ecc922ff4065a5dcb0dd79b1234835893, d79a3ef250d755b298c500c1b5f981882451ec91eaf5f7a0dbc488da14715920
+\begin{tabular}{llllllll}
+\toprule
+section & label & pr_auc_h3 & brier_h3 & pr_auc_h6 & brier_h6 & pr_auc_h12 & brier_h12 \\
+\midrule
+Full Feature Space & Continuous ($X_t$) + XGBoost & 0.543 & 0.063 & 0.325 & 0.086 & 0.301 & 0.105 \\
+Full Feature Space & "At-Risk" ($Z_t$) + Logit-L2 & 0.726 & 0.050 & 0.453 & 0.075 & 0.429 & 0.094 \\
+Parsimonious Models (10 Core Indicators) & Continuous ($X_t$) + XGBoost & 0.534 & 0.072 & 0.310 & 0.096 & 0.356 & 0.088 \\
+Parsimonious Models (10 Core Indicators) & "At-Risk" ($Z_t$) + Logit-L2 & 0.711 & 0.058 & 0.477 & 0.082 & 0.418 & 0.111 \\
+\bottomrule
+\end{tabular}

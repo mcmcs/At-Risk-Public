@@ -1,0 +1,26 @@
+\begin{tabular}{c l l r r r}
+\toprule
+$h$ & Benchmark & Metric & Difference & 5\% & 95\% \\
+\midrule
+3 & $X_t$ + Logit-$\ell_2$ & PR AUC & $0.234^{*}$ & 0.039 & 0.345 \\
+3 & $X_t$ + Logit-$\ell_2$ & Brier & $0.020^{*}$ & 0.007 & 0.035 \\
+3 & $X_t$ + XGBoost & PR AUC & $0.183^{*}$ & 0.050 & 0.245 \\
+3 & $X_t$ + XGBoost & Brier & $0.013$ & -0.006 & 0.036 \\
+3 & $X_t$ + Random Forest & PR AUC & $0.139^{*}$ & 0.004 & 0.213 \\
+3 & $X_t$ + Random Forest & Brier & $0.010$ & -0.011 & 0.035 \\
+\midrule
+6 & $X_t$ + Logit-$\ell_2$ & PR AUC & $0.140$ & -0.001 & 0.282 \\
+6 & $X_t$ + Logit-$\ell_2$ & Brier & $0.017^{*}$ & 0.003 & 0.033 \\
+6 & $X_t$ + XGBoost & PR AUC & $0.128$ & -0.060 & 0.225 \\
+6 & $X_t$ + XGBoost & Brier & $0.011$ & -0.015 & 0.040 \\
+6 & $X_t$ + Random Forest & PR AUC & $0.069$ & -0.050 & 0.150 \\
+6 & $X_t$ + Random Forest & Brier & $-0.003$ & -0.027 & 0.024 \\
+\midrule
+12 & $X_t$ + Logit-$\ell_2$ & PR AUC & $0.206^{*}$ & 0.010 & 0.353 \\
+12 & $X_t$ + Logit-$\ell_2$ & Brier & $0.024^{*}$ & 0.008 & 0.040 \\
+12 & $X_t$ + XGBoost & PR AUC & $0.128$ & -0.025 & 0.234 \\
+12 & $X_t$ + XGBoost & Brier & $0.011$ & -0.023 & 0.046 \\
+12 & $X_t$ + Random Forest & PR AUC & $0.017$ & -0.094 & 0.093 \\
+12 & $X_t$ + Random Forest & Brier & $-0.024$ & -0.047 & 0.003 \\
+\bottomrule
+\end{tabular}

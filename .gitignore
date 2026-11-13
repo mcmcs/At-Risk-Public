@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+*.log
+.env
+.env.*
+/program_v04/data/raw/
+/program_v04/results/
+/program_v04/output/
+/downloads/
+/download_report.json
+/run_report.json
